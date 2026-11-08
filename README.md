@@ -8,7 +8,9 @@ The site is static and does not store submissions or include a server-side form 
 
 ## Deploy
 
-The GitHub Actions workflow enables Pages if needed and publishes the contents of `site/` whenever a commit is pushed to `main`. The deployment source should be **GitHub Actions** in the repository's Pages settings.
+Before the first deployment, the repository owner must enable Pages in **Settings → Pages** and choose **GitHub Actions** as the source. GitHub does not allow this workflow token to create the Pages site. After that one-time setting, the workflow publishes `site/` on pushes to `main`.
+
+After enabling Pages, rerun **Deploy Birthday Wishes to GitHub Pages** from the Actions tab or push a new commit.
 
 ## Local Preview
 
