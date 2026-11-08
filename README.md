@@ -8,7 +8,7 @@ The site is static and does not store submissions or include a server-side form 
 
 ## Deploy
 
-The GitHub Actions workflow publishes the contents of `site/` to GitHub Pages whenever a commit is pushed to `main`. In the repository's Pages settings, select **GitHub Actions** as the deployment source.
+The GitHub Actions workflow enables Pages if needed and publishes the contents of `site/` whenever a commit is pushed to `main`. The deployment source should be **GitHub Actions** in the repository's Pages settings.
 
 ## Local Preview
 
